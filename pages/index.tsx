@@ -19,7 +19,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='Section2'>
+        <div className='Section2 h-full w-full'>
           <div className='h-full w-full py-1'>
             <div className='w-11/12 h-40 mx-auto bg-primary/25 my-5 rounded-lg p-2 font-extralight'>Roadmap phase 1</div>
             <div className='w-11/12 h-40 mx-auto bg-primary/25 my-5 rounded-lg p-2 font-extralight'>Roadmap phase 2</div>
@@ -36,16 +36,19 @@ export default function Home() {
           <li className='px-12 my-1 text-md'>info</li>
           <li className='px-12 my-1 text-md'>info</li>
           <li className='px-12 my-1 text-md'>info</li>
-          <img className="w-7/12 mx-auto rounded-full my-24" src="/APE.png" alt="logo" />
-          <p className='w-9/12 mx-auto'>Contract:</p>
+          <img className="w-7/12 mx-auto rounded-full my-20" src="/APE.png" alt="logo" />
+          <p className='w-full text-center text-sm' value="0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da">0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</p>
+          <div className='w-full flex justify-center items-center mt-4'>
+            <button className='border-white border-2 py-1 px-4 rounded-lg font-extralight text-center' onClick={() => navigator.clipboard.writeText('0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da')}>Copy to clipboard</button>
+          </div>
         </div>
 
-        <div className='Section4 h-full w-full flex flex-col justify-center items-center'>
+        <div className='Section4 h-full w-full flex flex-col justify-center items-center pt-12'>
           <h1 className='text-center font-semibold text-5xl'>JOIN US</h1>
           <Link href="#" target="_blank">
             <h2 className=" border-white border-2 text-lg font-medium py-2 px-5 rounded-lg mt-5 text-white hover:bg-white hover:text-black hover:border-black shadow-lg shadow-primary">Buy Now</h2>
           </Link>
-
+          <div className='mt-10'>socials (icons)</div>
         </div>
       </div>
 
