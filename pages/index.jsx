@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -63,7 +64,7 @@ export default function Home() {
             </div>
             <div className='lg:mb-16'>
               <img className="w-6/12 mx-auto rounded-full my-20 sm:w-60 md:w-80 md:my-10" src="/APE.png" alt="logo" />
-              <p className='w-full text-center text-sm font-medium' value="0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da">0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</p>
+              <div className='w-full text-center text-sm font-medium' value="0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da">0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</div>
               <div className='w-full flex justify-center items-center mt-4'>
                 <button className='border-white border-2 py-2 px-5 rounded-lg font-medium text-center shadow-lg shadow-primary transition-all duration-300 hover:bg-white hover:text-black hover:border-black' onClick={() => navigator.clipboard.writeText('0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da')}>Copy to clipboard</button>
               </div>
