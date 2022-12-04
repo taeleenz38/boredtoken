@@ -25,19 +25,14 @@ export default function Home() {
             <div className='w-11/12 h-40 mx-auto bg-primary/25 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-lg lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 1</h1>
               <p className='text-sm md:text-md font-extralight lg:mb-2'>- Token launch</p>
-              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Token airdrop (Flur alpha pass holders)</p>
-              <p className='text-sm md:text-md font-extralight lg:mb-2'>- 10% of $BORED supply will be airdropped to all Flur alpha pass holders - more alpha passes = bigger airdrop!</p>
             </div>
             <div className='w-11/12 h-40 mx-auto bg-primary/25 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-lg lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 2</h1>
-              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Staking 1.0 Live (Flur alpha passes)</p>
-              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Stake $BORED tokens to earn Flur alpha passes.</p>
-              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Flur alpha passes can be claimed as soon as staking threshold is met.</p>
+              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Staking 1.0 Live</p>
             </div>
             <div className='w-11/12 h-40 mx-auto bg-primary/25 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-lg lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 3</h1>
               <p className='text-sm md:text-md font-extralight lg:mb-2'>- Staking 2.0 Live (??? pool)</p>
-              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Stake $BORED tokens to earn ??? tokens.</p>
               {/* <p className='text-sm md:text-md font-extralight lg:mb-2'>- Tax will be used to purchase MAYCs for $APE yield, distributing farmed $APE tokens as staking rewards.</p> */}
             </div>
             <div className='w-11/12 h-40 mx-auto bg-primary/25 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-lg lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2'>
