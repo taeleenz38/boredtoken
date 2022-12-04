@@ -36,9 +36,9 @@ export default function Home() {
             </div>
             <div className='w-11/12 h-40 mx-auto bg-primary/25 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-lg lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 3</h1>
-              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Staking 2.0 Live ($APE pool)</p>
-              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Stake $BORED tokens to earn $APE tokens.</p>
-              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Tax will be used to purchase MAYCs for $APE yield, distributing farmed $APE tokens as staking rewards.</p>
+              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Staking 2.0 Live (??? pool)</p>
+              <p className='text-sm md:text-md font-extralight lg:mb-2'>- Stake $BORED tokens to earn ??? tokens.</p>
+              {/* <p className='text-sm md:text-md font-extralight lg:mb-2'>- Tax will be used to purchase MAYCs for $APE yield, distributing farmed $APE tokens as staking rewards.</p> */}
             </div>
             <div className='w-11/12 h-40 mx-auto bg-primary/25 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-lg lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 4</h1>
