@@ -78,7 +78,7 @@ export default function Home() {
             <h2 className=" border-white border-2 text-lg font-medium py-2 px-5 rounded-lg mt-5 text-white transition-all duration-300 hover:bg-white hover:text-black hover:border-black shadow-lg shadow-primary lg:text-2xl lg:py-3 lg:px-8 lg:mt-10">Buy Now</h2>
           </Link>
           <div className='mt-10 flex '>
-            <Link href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://twitter.com/boredtokn" target="_blank" rel="noopener noreferrer">
               <img
                 id="twitter"
                 src="/twitter.png"
@@ -86,7 +86,7 @@ export default function Home() {
                 className='w-8 lg:w-11 mr-5'
               />
             </Link>
-            <Link href="https://t.me/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://t.me/+b06oKVlSdCozMTU0" target="_blank" rel="noopener noreferrer">
               <img
                 id="telegram"
                 src="/telegram.png"
