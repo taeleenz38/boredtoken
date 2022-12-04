@@ -54,16 +54,16 @@ export default function Home() {
             <div>
               <h1 className='font-semibold text-7xl hidden lg:block mb-5'>Tokenomics</h1>
               <div>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>Supply - 1,000,000,000 $BORED tokens</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>Initial tax - 3% buy / 3% sell</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - airdropped to Flur alpha pass holders</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - reserved for staking 1.0</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>5% of total supply - reserved for staking 2.0</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>5% of total supply - reserved for marketing funds</li>
+                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>Supply - 1,000,000,000 $BORED tokens</li>
+                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>Initial tax - 3% buy / 3% sell</li>
+                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - airdropped to Flur alpha pass holders</li>
+                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - reserved for staking 1.0</li>
+                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>5% of total supply - reserved for staking 2.0</li>
+                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>5% of total supply - reserved for marketing funds</li>
               </div>
             </div>
             <div className='lg:mb-16'>
-              <img className="w-6/12 mx-auto rounded-full my-20 sm:w-60 md:w-80 md:my-10" src="/APE.png" alt="logo" />
+              <img className="w-6/12 mx-auto rounded-full my-14 sm:w-60 md:w-80 md:my-10" src="/APE.png" alt="logo" />
               <div className='w-full text-center text-sm font-medium' value="0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da">0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</div>
               <div className='w-full flex justify-center items-center mt-4'>
                 <button className='border-white border-2 py-2 px-5 rounded-lg font-medium text-center shadow-lg shadow-primary transition-all duration-300 hover:bg-white hover:text-black hover:border-black' onClick={() => navigator.clipboard.writeText('0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da')}>Copy to clipboard</button>
