@@ -56,7 +56,7 @@ export default function Home() {
               <div>
                 <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>Supply - 1,000,000,000 $BORED tokens</li>
                 <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>Initial tax - 3% buy / 3% sell</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply (100,000,000 $BORED tokens) airdropped to Flur alpha pass holders</li>
+                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - airdropped to Flur alpha pass holders</li>
                 <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - reserved for staking 1.0</li>
                 <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>5% of total supply - reserved for staking 2.0</li>
                 <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm my-3 text-md lg:px-0 lg:w-10/12'>5% of total supply - reserved for marketing funds</li>
