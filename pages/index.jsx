@@ -78,20 +78,24 @@ export default function Home() {
         </div>
 
         <div className='Section3 bg-primary/10 h-full w-full items-center'>
-          <h1 className='text-center font-semibold py-5 lg:py-8 text-3xl lg:hidden'>Tokenomics</h1>
-          <div className='lg:flex lg:w-9/12 xl:w-7/12 lg:h-full lg:items-center lg:justify-between lg:mx-auto'>
+          <div className='flex flex-col h-full w-full lg:w-9/12 mx-auto lg:flex-row py-8 lg:py-8 justify-between lg:items-center'>
             <div>
-              <h1 className='font-semibold text-7xl hidden lg:block mb-5'>Tokenomics</h1>
-              <div>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>Supply - 1,000,000,000 $BORED tokens</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>Initial tax - 3% buy / 3% sell (used to purchase $ape)</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - airdropped to Flur alpha pass holders</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - reserved for staking 1.0</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>5% of total supply - reserved for staking 2.0</li>
-                <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>5% of total supply - reserved for marketing funds</li>
+              <h1 className='text-center font-semibold text-3xl lg:hidden'>Tokenomics</h1>
+              <div className='lg:flex lg:w-9/12 xl:w-7/12 lg:h-full lg:items-center lg:justify-between lg:mx-auto'>
+                <div>
+                  <h1 className='font-semibold text-7xl hidden lg:block mb-5'>Tokenomics</h1>
+                  <div>
+                    <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>Supply - 1,000,000,000 $BORED tokens</li>
+                    <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>Initial tax - 3% buy / 3% sell (used to purchase $ape)</li>
+                    <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - airdropped to Flur alpha pass holders</li>
+                    <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - reserved for staking 1.0</li>
+                    <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>5% of total supply - reserved for staking 2.0</li>
+                    <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>5% of total supply - reserved for marketing funds</li>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className='mt-28 lg:mb-16'>
+            <div className='mt-40 lg:mt-0 lg:mb-16'>
               <img className="hidden sm:block lg:w-6/12 mx-auto rounded-full my-12 sm:w-60 md:w-80" src="/APE.png" alt="logo" />
               <div className='w-full text-center text-xs sm:text-sm font-medium' value="0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da">0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</div>
               <div className='w-full flex justify-center items-center mt-4'>
@@ -103,7 +107,7 @@ export default function Home() {
 
         <div className='Section4 h-full w-11/12 mx-auto border-t-2 border-b-2 sm:flex sm:items-center overflow-y-hidden'>
           <h1 className='font-semibold mt-2 sm:mt-4 sm:ml-10 sm:text-4xl'>Staked NFTs</h1>
-          <div className='h-full w-full sm:hidden overflow-scroll overflow-y-hidden hide-scrollbar'>
+          <div className='h-full w-full pb-10 sm:hidden overflow-y-scroll hide-scrollbar'>
             <img className='w-full my-2 rounded-2xl' src="mutant1.png" alt="mutant1" />
             <img className='w-full my-2 rounded-2xl' src="bakc1.png" alt="bakc1" />
           </div>
@@ -150,7 +154,7 @@ export default function Home() {
 
           </div>
         </div>
-      </div>
+      </div >
 
       <footer className="wrap w-11/12 mx-auto">
         <footer className="w-11/12 pt-2 bottom-4 font-medium border-t-2 border-t-white fixed flex justify-between lg:bottom-6 lg:pt-4 ">
