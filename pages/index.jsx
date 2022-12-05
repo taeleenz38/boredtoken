@@ -20,7 +20,7 @@ export default function Home() {
       <div className='hide-scrollbar scroll-smooth boxheight overflow-scroll'>
         <div className='Section1 h-full w-11/12 mx-auto' id='home'>
           <div className='h-full w-full flex flex-col justify-center items-center'>
-            <video preload='auto' loop autoPlay muted className='w-full md:w-2/3' >
+            <video preload='auto' playsInline loop autoPlay muted className='w-full md:w-2/3' >
               <source src="/boredbig.mp4" type='video/mp4' />
             </video>
             <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl'>$BORED of making money... Time for something new</h1>
@@ -150,7 +150,7 @@ export default function Home() {
       </div >
 
       <footer className="wrap w-11/12 mx-auto">
-        <footer className="w-11/12 pt-2 bottom-4 font-medium border-t-2 border-t-white fixed flex justify-between lg:bottom-6 lg:pt-4 ">
+        <footer className="w-11/12 pt-2 bottom-4 font-medium border-t-2 border-t-white bg-black fixed flex justify-between lg:bottom-6 lg:pt-5 ">
           <p>Bored Token</p>
           <Link href="#home" className='transition-all duration-200 hover:text-primary'>Home</Link>
         </footer>
