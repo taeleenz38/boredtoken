@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <div className='hide-scrollbar scroll-smooth boxheight overflow-scroll'>
-        <div className='Section1 h-full w-11/12 mx-auto z-20' id='home'>
+        <div className='Section1 h-full w-11/12 mx-auto' id='home'>
           <div className='h-full w-full flex flex-col justify-center items-center'>
             <video preload='auto' playsInline loop autoPlay muted className='w-full md:w-2/3' >
               <source src="/boredbig.mp4" type='video/mp4' />
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='Section2 h-full w-11/12 mx-auto border-b-2 z-20'>
+        <div className='Section2 h-full w-11/12 mx-auto border-b-2'>
           <div className='h-full w-full py-1 lg:flex lg:items-center lg:w-10/12 lg:mx-auto'>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 1</h1>
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='Section3 bg-primary/10 h-full w-full items-center z-20'>
+        <div className='Section3 bg-primary/10 h-full w-full items-center'>
           <div className='flex flex-col h-full w-full lg:w-8/12 mx-auto lg:flex-row py-8 lg:py-8 justify-between lg:items-center'>
             <div>
               <h1 className='text-center font-semibold text-4xl lg:hidden'>Tokenomics</h1>
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='Section4 h-full w-11/12 mx-auto border-t-2 border-b-2 sm:flex sm:items-center overflow-y-hidden z-20'>
+        <div className='Section4 h-full w-11/12 mx-auto border-t-2 border-b-2 sm:flex sm:items-center overflow-y-hidden'>
           <h1 className='font-semibold mt-2 sm:mt-4 sm:ml-10 sm:text-4xl'>Staked NFTs</h1>
           <div className='h-full w-full pb-10 sm:hidden overflow-y-scroll hide-scrollbar'>
             <img className='w-full my-2 rounded-2xl' src="mutant 1.jpg" alt="mutant1" />
@@ -111,7 +111,7 @@ export default function Home() {
         </div>
 
 
-        <div className='Section5 h-full w-full flex flex-col justify-center items-center pt-12 z-20'>
+        <div className='Section5 h-full w-full flex flex-col justify-center items-center pt-12'>
           <h1 className='text-center font-semibold text-5xl lg:text-8xl'>JOIN US</h1>
           <Link href="#" target="_blank">
             <h2 className=" border-white border-2 text-lg font-medium py-2 px-5 rounded-lg mt-5 text-white transition-all duration-300 hover:bg-white hover:text-black hover:border-black shadow-lg shadow-primary lg:text-2xl lg:py-3 lg:px-8 lg:mt-10">Buy Now</h2>
@@ -150,7 +150,7 @@ export default function Home() {
       </div >
 
       <footer className="wrap w-11/12 bg-black mx-auto overflow-hidden">
-        <footer className="w-11/12 pt-2 lg:pt-4 font-medium border-t-2 border-t-white bg-black fixed flex justify-between lg:bottom-8 z-50">
+        <footer className="w-11/12 pt-2 lg:pt-5 font-medium border-t-2 border-t-white bg-black fixed flex justify-between">
           <p>Bored Token</p>
           <Link href="#home" className='transition-all duration-200 hover:text-primary'>Home</Link>
         </footer>
