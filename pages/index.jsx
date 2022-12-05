@@ -18,17 +18,17 @@ export default function Home() {
       </Head>
 
       <div className='h-screen w-screen hide-scrollbar scroll-smooth overflow-scroll'>
-        <div className='Section1 h-full w-11/12 mx-auto' id='home'>
+        <div className='Section1 h-full w-11/12 mx-auto pb-14' id='home'>
           <div className='h-full w-full flex flex-col justify-center items-center'>
             <video preload='auto' playsInline loop autoPlay muted className='w-full md:w-2/3' >
               <source src="/boredbig.mp4" type='video/mp4' />
             </video>
-            <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl mb-14'>$BORED of making money... Time for something new</h1>
+            <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl'>$BORED of making money... Time for something new</h1>
 
           </div>
         </div>
 
-        <div className='Section2 h-full w-11/12 mx-auto border-b-2 my-0'>
+        <div className='Section2 h-full w-11/12 mx-auto border-b-2 my-0 pb-14'>
           <div className='h-full w-full py-1 lg:flex lg:items-center lg:w-10/12 lg:mx-auto'>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 1</h1>
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='Section3 bg-primary/10 h-full w-full items-center my-0 py-5'>
+        <div className='Section3 bg-primary/10 h-full w-full items-center my-0 pt-5 pb-14'>
           <div className='flex flex-col h-full w-full lg:w-8/12 mx-auto lg:flex-row py-8 lg:py-8 justify-between lg:items-center'>
             <div>
               <h1 className='text-center font-semibold text-4xl lg:hidden'>Tokenomics</h1>
@@ -98,11 +98,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='Section4 h-full w-11/12 mx-auto border-t-2 border-b-2 sm:flex sm:items-center overflow-y-hidden my-0'>
+        <div className='Section4 h-5/6 w-11/12 mx-auto border-t-2 border-b-2 sm:flex sm:items-center overflow-y-hidden my-0'>
           <h1 className='font-semibold mt-2 sm:mt-4 sm:ml-10 sm:text-4xl'>Staked NFTs</h1>
           <div className='h-full w-full pb-10 sm:hidden overflow-y-scroll hide-scrollbar'>
             <img className='w-full my-2 rounded-2xl' src="mutant 1.jpg" alt="mutant1" />
             <img className='w-full my-2 rounded-2xl' src="bakc1.png" alt="bakc1" />
+
           </div>
           <div className='items hidden w-full sm:flex overflow-x-scroll overflow-y-hidden hide-scrollbar'>
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="mutant 1.jpg" alt="mutant1" />
@@ -111,7 +112,7 @@ export default function Home() {
         </div>
 
 
-        <div className='Section5 h-full w-full flex flex-col justify-center items-center pt-12'>
+        <div className='Section5 h-full w-full flex flex-col justify-center items-center pb-14'>
           <h1 className='text-center font-semibold text-5xl lg:text-8xl'>JOIN US</h1>
           <Link href="#" target="_blank">
             <h2 className=" border-white border-2 text-lg font-medium py-2 px-5 rounded-lg mt-5 text-white transition-all duration-300 hover:bg-white hover:text-black hover:border-black shadow-lg shadow-primary lg:text-2xl lg:py-3 lg:px-8 lg:mt-10">Buy Now</h2>
