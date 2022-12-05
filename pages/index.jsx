@@ -80,12 +80,12 @@ export default function Home() {
         <div className='Section3 bg-primary/10 h-full w-full items-center'>
           <div className='flex flex-col h-full w-full lg:w-9/12 mx-auto lg:flex-row py-8 lg:py-8 justify-between lg:items-center'>
             <div>
-              <h1 className='text-center font-semibold text-3xl lg:hidden'>Tokenomics</h1>
+              <h1 className='text-center font-semibold text-4xl lg:hidden'>Tokenomics</h1>
               <div className='lg:flex lg:w-9/12 xl:w-7/12 lg:h-full lg:items-center lg:justify-between lg:mx-auto'>
                 <div>
                   <h1 className='font-semibold text-7xl hidden lg:block mb-5'>Tokenomics</h1>
                   <div>
-                    <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>Supply - 1,000,000,000 $BORED tokens</li>
+                    <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 mt-3 lg:mt-0 lg:my-3 text-md lg:px-0 lg:w-10/12'>Supply - 1,000,000,000 $BORED tokens</li>
                     <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>Initial tax - 3% buy / 3% sell (used to purchase $ape)</li>
                     <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - airdropped to Flur alpha pass holders</li>
                     <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - reserved for staking 1.0</li>
