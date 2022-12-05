@@ -49,30 +49,39 @@ export default function Home() {
 
       <div className='hide-scrollbar scroll-smooth boxheight overflow-scroll'>
         <div className='Section1 h-full w-11/12 mx-auto' id='home'>
-          <div className='h-full w-full flex items-center'>
+          <div className='h-full w-full flex flex-col justify-center items-center'>
             <img className="w-9/12 mx-auto rounded-full lg:w-4/12" src="/APE.png" alt="logo" />
+            <h1 className='font-semibold w-10/12 sm:w-fit mx-auto mt-10 text-2xl'>$BORED of making money... Time for something new</h1>
+
           </div>
         </div>
 
         <div className='Section2 h-full w-11/12 mx-auto border-b-2'>
           <div className='h-full w-full py-1 lg:flex lg:items-center lg:w-10/12 lg:mx-auto'>
-            <div className='w-11/12 h-1/5 mx-auto bg-primary/25 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-lg lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2'>
+            <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 1</h1>
-              <p className='text-md lg:text-lg font-extralight lg:mb-2'>- Token launch</p>
+              <p className='text-md  font-extralight lg:mb-1'>- Token launch</p>
             </div>
-            <div className='w-11/12 h-1/5 mx-auto bg-primary/25 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-lg lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2'>
+            <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 2</h1>
-              <p className='text-md lg:text-lg font-extralight lg:mb-2'>- Staking 1.0 Live</p>
+              <p className='text-md  font-extralight lg:mb-1'>- Staking 1.0 Live</p>
+              <p className='text-md  font-extralight'>- Claim ??? rewards</p>
             </div>
-            <div className='w-11/12 h-1/5 mx-auto bg-primary/25 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-lg lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2'>
+            <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 3</h1>
-              <p className='text-md lg:text-lg font-extralight lg:mb-2'>- Staking 2.0 Live (??? pool)</p>
-              {/* <p className='text-md font-extralight lg:mb-2'>- Tax will be used to purchase MAYCs for $APE yield, distributing farmed $APE tokens as staking rewards.</p> */}
+              <p className='text-md  font-extralight lg:mb-1'>- Staking 2.0 Live</p>
+              <p className='text-md  font-extralight'>- $APE purchased with tax (???)</p>
+              <div className='hidden lg:h-60 lg:flex lg:justify-center lg:items-center'>
+                <img src="/apecoin.gif" className='w-9/12 rounded-full hidden lg:block mx-auto' alt="apecoin" />
+              </div>
             </div>
-            <div className='w-11/12 h-1/5 mx-auto bg-primary/25 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-lg lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2'>
+            <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 4</h1>
-              <p className='text-md lg:text-lg font-extralight lg:mb-2'>- TBD</p>
-              <p className='text-md lg:text-lg font-extralight lg:mb-2'>- Flamethrowers anyone?</p>
+              <p className='text-md  font-extralight lg:mb-1'>- TBD</p>
+              <p className='text-md  font-extralight'>- Who enjoys playing with fire?</p>
+              <div className='hidden lg:h-60 lg:flex lg:justify-center lg:items-center'>
+                <img src="/fire.gif" className='w-9/12 rounded-full hidden lg:block mx-auto' alt="apecoin" />
+              </div>
             </div>
           </div>
         </div>
