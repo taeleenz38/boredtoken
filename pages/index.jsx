@@ -149,8 +149,8 @@ export default function Home() {
         </div>
       </div >
 
-      <footer className="wrap w-11/12 mx-auto overflow-hidden">
-        <footer className="w-11/12 pt-2 lg:pt-4 bottom-4 font-medium border-t-2 border-t-white bg-black fixed flex justify-between lg:bottom-8 z-50">
+      <footer className="wrap w-11/12 bg-black mx-auto overflow-hidden">
+        <footer className="w-11/12 pt-2 lg:pt-4 font-medium border-t-2 border-t-white bg-black fixed flex justify-between lg:bottom-8 z-50">
           <p>Bored Token</p>
           <Link href="#home" className='transition-all duration-200 hover:text-primary'>Home</Link>
         </footer>
