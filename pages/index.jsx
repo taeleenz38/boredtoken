@@ -50,7 +50,7 @@ export default function Home() {
       <div className='hide-scrollbar scroll-smooth boxheight overflow-scroll'>
         <div className='Section1 h-full w-11/12 mx-auto' id='home'>
           <div className='h-full w-full flex flex-col justify-center items-center'>
-            <video loop autoPlay muted className='w-full md:w-2/3' >
+            <video preload='auto' loop autoPlay muted className='w-full md:w-2/3' >
               <source src="/bored.mp4" type='video/mp4' />
             </video>
             <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl'>$BORED of making money... Time for something new</h1>
@@ -65,7 +65,7 @@ export default function Home() {
               <p className='text-md  font-extralight lg:mb-1'>- Token launch</p>
               <p className='text-md  font-extralight lg:mb-1'>- Marketing phase</p>
               <div className='hidden lg:h-60 lg:flex lg:justify-center lg:items-center'>
-                <video loop autoPlay muted className='w-11/12' >
+                <video preload='auto' loop autoPlay muted className='w-11/12' >
                   <source src="/bored1.mp4" type='video/mp4' />
                 </video>
               </div>
@@ -75,7 +75,7 @@ export default function Home() {
               <p className='text-md  font-extralight lg:mb-1'>- Staking 1.0 Live</p>
               <p className='text-md  font-extralight'>- Claim ??? rewards</p>
               <div className='hidden lg:h-60 lg:flex lg:justify-center lg:items-center'>
-                <video loop autoPlay muted className='w-11/12' >
+                <video preload='auto' loop autoPlay muted className='w-11/12' >
                   <source src="/bored1.mp4" type='video/mp4' />
                 </video>
               </div>
