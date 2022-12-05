@@ -23,7 +23,7 @@ export default function Home() {
             <video preload='auto' playsInline loop autoPlay muted className='w-full md:w-2/3' >
               <source src="/boredbig.mp4" type='video/mp4' />
             </video>
-            <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl'>$BORED of making money... Time for something new</h1>
+            <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl mb-14'>$BORED of making money... Time for something new</h1>
 
           </div>
         </div>
