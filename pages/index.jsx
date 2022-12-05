@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='h-full w-full hide-scrollbar scroll-smooth overflow-scroll'>
+      <div className='h-screen w-screen hide-scrollbar scroll-smooth overflow-scroll'>
         <div className='Section1 h-full w-11/12 mx-auto' id='home'>
           <div className='h-full w-full flex flex-col justify-center items-center'>
             <video preload='auto' playsInline loop autoPlay muted className='w-full md:w-2/3' >
