@@ -100,10 +100,9 @@ export default function Home() {
 
         <div className='Section4 h-full w-11/12 mx-auto border-t-2 border-b-2 sm:flex sm:items-center overflow-y-hidden my-0'>
           <h1 className='font-semibold mt-2 sm:mt-4 sm:ml-10 sm:text-4xl'>Staked NFTs</h1>
-          <div className='h-full w-full pb-10 sm:hidden overflow-y-scroll hide-scrollbar pb-14'>
-            <img className='w-full my-2 rounded-2xl' src="mutant 1.jpg" alt="mutant1" />
-            <img className='w-full my-2 rounded-2xl' src="bakc1.png" alt="bakc1" />
-
+          <div className='h-full w-full sm:hidden overflow-y-scroll hide-scrollbar pb-14'>
+            <img className='w-11/12 mx-auto my-2 rounded-2xl' src="mutant 1.jpg" alt="mutant1" />
+            <img className='w-11/12 mx-auto my-2 rounded-2xl' src="bakc1.png" alt="bakc1" />
           </div>
           <div className='items hidden w-full sm:flex overflow-x-scroll overflow-y-hidden hide-scrollbar'>
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="mutant 1.jpg" alt="mutant1" />
