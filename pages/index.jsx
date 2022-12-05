@@ -9,7 +9,7 @@ export default function Home() {
 
 
   return (
-    <div className="font-['Montserrat'] hide-scrollbar text-white bg-black h-screen w-screen">
+    <div className="font-['Montserrat'] hide-scrollbar text-white bg-black h-screen  w-screen">
 
       <Head>
         <title>$BORED</title>
@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='hide-scrollbar scroll-smooth boxheight overflow-scroll'>
+      <div className='h-full w-full hide-scrollbar scroll-smooth overflow-scroll'>
         <div className='Section1 h-full w-11/12 mx-auto' id='home'>
           <div className='h-full w-full flex flex-col justify-center items-center'>
             <video preload='auto' playsInline loop autoPlay muted className='w-full md:w-2/3' >
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='Section2 h-full w-11/12 mx-auto border-b-2'>
+        <div className='Section2 h-full w-11/12 mx-auto border-b-2 my-0'>
           <div className='h-full w-full py-1 lg:flex lg:items-center lg:w-10/12 lg:mx-auto'>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 1</h1>
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='Section3 bg-primary/10 h-full w-full items-center'>
+        <div className='Section3 bg-primary/10 h-full w-full items-center my-0 py-5'>
           <div className='flex flex-col h-full w-full lg:w-8/12 mx-auto lg:flex-row py-8 lg:py-8 justify-between lg:items-center'>
             <div>
               <h1 className='text-center font-semibold text-4xl lg:hidden'>Tokenomics</h1>
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='Section4 h-full w-11/12 mx-auto border-t-2 border-b-2 sm:flex sm:items-center overflow-y-hidden'>
+        <div className='Section4 h-full w-11/12 mx-auto border-t-2 border-b-2 sm:flex sm:items-center overflow-y-hidden my-0'>
           <h1 className='font-semibold mt-2 sm:mt-4 sm:ml-10 sm:text-4xl'>Staked NFTs</h1>
           <div className='h-full w-full pb-10 sm:hidden overflow-y-scroll hide-scrollbar'>
             <img className='w-full my-2 rounded-2xl' src="mutant 1.jpg" alt="mutant1" />
@@ -149,10 +149,10 @@ export default function Home() {
         </div>
       </div >
 
-      <footer className="wrap w-11/12 bg-black mx-auto overflow-hidden">
-        <footer className="w-11/12 pt-2 lg:pt-5 font-medium border-t-2 border-t-white bg-black fixed flex justify-between">
-          <p>Bored Token</p>
-          <Link href="#home" className='transition-all duration-200 hover:text-primary'>Home</Link>
+      <footer className="w-11/12 py-0 bg-black mx-auto overflow-hidden">
+        <footer className="w-11/12 pt-2 bg-black bottom-0 font-medium border-t-2 border-t-white fixed flex justify-between">
+          <p className='mb-3'>Bored Token</p>
+          <Link href="#home" className='mb-3 transition-all duration-200 hover:text-primary'>Home</Link>
         </footer>
       </footer>
 
