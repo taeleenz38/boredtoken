@@ -50,7 +50,7 @@ export default function Home() {
       <div className='hide-scrollbar scroll-smooth boxheight overflow-scroll'>
         <div className='Section1 h-full w-11/12 mx-auto' id='home'>
           <div className='h-full w-full flex flex-col justify-center items-center'>
-            <video loop autoPlay muted className='w-full md:w-3/4' >
+            <video loop autoPlay muted className='w-full md:w-2/3' >
               <source src="/bored.mp4" type='video/mp4' />
             </video>
             <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl'>$BORED of making money... Time for something new</h1>
@@ -64,18 +64,22 @@ export default function Home() {
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 1</h1>
               <p className='text-md  font-extralight lg:mb-1'>- Token launch</p>
               <p className='text-md  font-extralight lg:mb-1'>- Marketing phase</p>
-              <video loop autoPlay muted className='w-/91.2' >
-                <source src="/bored2.mp4" type='video/mp4' />
-              </video>
-
+              <div className='hidden lg:h-60 lg:flex lg:justify-center lg:items-center'>
+                <video loop autoPlay muted className='w-11/12' >
+                  <source src="/bored1.mp4" type='video/mp4' />
+                </video>
+              </div>
             </div>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 2</h1>
               <p className='text-md  font-extralight lg:mb-1'>- Staking 1.0 Live</p>
               <p className='text-md  font-extralight'>- Claim ??? rewards</p>
-              <video loop autoPlay muted className='w-/91.2' >
-                <source src="/bored2.mp4" type='video/mp4' />
-              </video>
+              <div className='hidden lg:h-60 lg:flex lg:justify-center lg:items-center'>
+                <video loop autoPlay muted className='w-11/12' >
+                  <source src="/bored1.mp4" type='video/mp4' />
+                </video>
+              </div>
+
             </div>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 3</h1>
@@ -97,10 +101,10 @@ export default function Home() {
         </div>
 
         <div className='Section3 bg-primary/10 h-full w-full items-center'>
-          <div className='flex flex-col h-full w-full lg:w-9/12 mx-auto lg:flex-row py-8 lg:py-8 justify-between lg:items-center'>
+          <div className='flex flex-col h-full w-full lg:w-8/12 mx-auto lg:flex-row py-8 lg:py-8 justify-between lg:items-center'>
             <div>
               <h1 className='text-center font-semibold text-4xl lg:hidden'>Tokenomics</h1>
-              <div className='lg:flex lg:w-9/12 xl:w-7/12 lg:h-full lg:items-center lg:justify-between lg:mx-auto'>
+              <div className='lg:flex lg:w-9/12 xl:w-7/12 lg:h-full lg:items-center lg:justify-between'>
                 <div>
                   <h1 className='font-semibold text-7xl hidden lg:block mb-5'>Tokenomics</h1>
                   <div>
@@ -115,7 +119,7 @@ export default function Home() {
               </div>
             </div>
             <div className='mt-40 lg:mt-0 lg:mb-16'>
-              <img className="hidden sm:block lg:w-6/12 mx-auto rounded-full my-12 sm:w-60 md:w-80" src="/APE.png" alt="logo" />
+              <img className="w-24 lg:block mx-auto mb-8 xl:w-44" src="/logo.png" alt="logo" />
               <div className='w-full text-center text-xs sm:text-sm font-medium' value="0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da">0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</div>
               <div className='w-full flex justify-center items-center mt-4'>
                 <button className='border-white border-2 py-2 px-5 rounded-lg font-medium text-center shadow-lg shadow-primary transition-all duration-300 hover:bg-white hover:text-black hover:border-black' onClick={() => navigator.clipboard.writeText('0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da')}>Copy to clipboard</button>
@@ -127,11 +131,11 @@ export default function Home() {
         <div className='Section4 h-full w-11/12 mx-auto border-t-2 border-b-2 sm:flex sm:items-center overflow-y-hidden'>
           <h1 className='font-semibold mt-2 sm:mt-4 sm:ml-10 sm:text-4xl'>Staked NFTs</h1>
           <div className='h-full w-full pb-10 sm:hidden overflow-y-scroll hide-scrollbar'>
-            <img className='w-full my-2 rounded-2xl' src="mutant1.jpg" alt="mutant1" />
+            <img className='w-full my-2 rounded-2xl' src="mutant 1.jpg" alt="mutant1" />
             <img className='w-full my-2 rounded-2xl' src="bakc1.png" alt="bakc1" />
           </div>
           <div className='items hidden w-full sm:flex overflow-x-scroll overflow-y-hidden hide-scrollbar'>
-            <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="mutant1.jpg" alt="mutant1" />
+            <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="mutant 1.jpg" alt="mutant1" />
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="bakc1.png" alt="bakc1" />
           </div>
         </div>
