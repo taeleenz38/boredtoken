@@ -153,8 +153,8 @@ active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'
                 className='w-8 lg:w-10'
               />
             </Link>
-
           </div>
+          <p className='mt-4 text-sm lg:text-lg'>info@boredtoken.io</p>
         </div>
       </div >
 
