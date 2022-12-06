@@ -39,8 +39,8 @@ export default function Home() {
           <div className='h-full w-full py-1 lg:flex lg:items-center lg:w-full xl:w-10/12 lg:mx-auto'>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-2/5 xl:h-1/2 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 1</h1>
-              <p className='text-md  font-extralight lg:mb-1'>- Token launch</p>
-              <p className='text-md lg:mb-1 font-extralight lg:mb-1'>- Marketing phase</p>
+              <p className='text-md font-extralight lg:mb-1'>- Token launch</p>
+              <p className='text-md lg:mb-1 font-extralight'>- Marketing phase</p>
               <div className='hidden lg:h-40 xl:h-60 lg:flex lg:justify-center lg:items-center'>
                 <video preload='auto' loop autoPlay muted className='w-11/12' >
                   <source src="/boredsmall.mp4" type='video/mp4' />
@@ -49,7 +49,7 @@ export default function Home() {
             </div>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-2/5 xl:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 2</h1>
-              <p className='text-md  font-extralight lg:mb-1'>- Staking 1.0 Live</p>
+              <p className='text-md font-extralight lg:mb-1'>- Staking 1.0 Live</p>
               <p className='text-md lg:mb-1 font-extralight z-40'>- Claim ? rewards</p>
               <div className='hidden lg:h-40 xl:h-60 lg:flex lg:justify-center lg:items-center'>
                 <video preload='auto' loop autoPlay muted className='w-11/12 z-20' >
