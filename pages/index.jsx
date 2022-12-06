@@ -24,7 +24,14 @@ export default function Home() {
               <source src="/boredbig.mp4" type='video/mp4' />
             </video>
             <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl'>$BORED of making money... Time for something new</h1>
-
+            <div className="flex mx-auto justify-between">
+              <Link href="#" target="_blank" className='py-2 px-5 mt-6 mr-3 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 hover:bg-white hover:text-black hover:border-black'>
+                Dextools
+              </Link>
+              <Link href="#" target="_blank" className='py-2 px-5 mt-6 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 hover:bg-white hover:text-black hover:border-black'>
+                Uniswap
+              </Link>
+            </div>
           </div>
         </div>
 
@@ -111,7 +118,7 @@ export default function Home() {
         </div>
 
 
-        <div className='Section5 h-full w-full flex flex-col justify-center items-center pb-14'>
+        <div className='Section5 h-full w-full flex flex-col justify-center items-center pb-14' id="socials">
           <h1 className='text-center font-semibold text-5xl lg:text-8xl'>JOIN US</h1>
           <Link href="#" target="_blank">
             <h2 className=" border-white border-2 text-lg font-medium py-2 px-5 rounded-lg mt-5 text-white transition-all duration-300 hover:bg-white hover:text-black hover:border-black shadow-lg shadow-primary lg:text-2xl lg:py-3 lg:px-8 lg:mt-10">Buy Now</h2>
@@ -152,7 +159,10 @@ export default function Home() {
       <footer className="w-11/12 py-0 bg-black mx-auto overflow-hidden">
         <footer className="w-11/12 pt-2 bg-black bottom-0 font-medium border-t-2 border-t-white fixed flex justify-between">
           <p className='mb-3'>Bored Token</p>
-          <Link href="#home" className='mb-3 transition-all duration-200 hover:text-primary'>Home</Link>
+          <div>
+          <Link href="#home" className='mb-3 mr-4 transition-all duration-200 hover:text-primary'>Home</Link>
+          <Link href="#socials" className='mb-3 transition-all duration-200 hover:text-primary'>Socials</Link>
+          </div>
         </footer>
       </footer>
 
