@@ -29,7 +29,7 @@ export default function Home() {
             </video>
             <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl'>$BORED of making money... Time for something new</h1>
             <div className="flex mx-auto justify-between">
-              <Link href="#" target="_blank" className='py-2 px-5 mt-6 mr-3 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 active:bg-white active:text-black active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'>
+              <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0xd7c8b4709b386493665a8f463f6477d17a0d851d" target="_blank" className='py-2 px-5 mt-6 mr-3 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 active:bg-white active:text-black active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'>
                 Dextools
               </Link>
               <Link href="https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0x2047ab3072B52561596Ce5E0131BDbB7C848538D" target="_blank" className='py-2 px-5 mt-6 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 active:bg-white active:text-black active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'>
