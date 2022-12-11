@@ -90,7 +90,7 @@ export default function Home() {
                   <div>
                     <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 mt-3 lg:mt-0 lg:my-3 text-md lg:px-0 lg:w-10/12'>Supply - 1,000,000,000 $BORED tokens</li>
                     <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>Initial tax - 4% buy / 4% sell (used to purchase $APE)</li>
-                    <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>80% of total supply - locked liquidity</li>
+                    <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>70% of total supply - locked liquidity</li>
                     <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - reserved for team</li>
                     <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - reserved for marketing funds</li>
                     <li className='px-12 w-10/12 sm:w-7/12 mx-auto text-sm mb-1 lg:my-3 text-md lg:px-0 lg:w-10/12'>10% of total supply - reserved for BAYC | MAYC | $APE purchase</li>
