@@ -42,7 +42,7 @@ export default function Home() {
         <div className='Section2 h-full w-11/12 mx-auto border-b-2 my-0 pb-14'>
           <div className='h-full w-full py-1 lg:flex lg:items-center lg:w-full xl:w-10/12 lg:mx-auto'>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-2/5 xl:h-1/2 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
-              <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 1</h1>
+              <h1 className='text-lg font-semibold lg:text-2xl mb-2 lg:mb-5 py-1 border-b'>Phase 1</h1>
               <p className='text-md font-extralight lg:mb-1'>- Token launch</p>
               <p className='text-md lg:mb-1 font-extralight'>- Buy BAYC/MAYC + $APE</p>
               <div className='hidden lg:h-40 xl:h-60 lg:flex lg:justify-center lg:items-center'>
@@ -52,7 +52,7 @@ export default function Home() {
               </div>
             </div>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-2/5 xl:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
-              <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 2</h1>
+              <h1 className='text-lg font-semibold lg:text-2xl mb-2 lg:mb-5 py-1 border-b'>Phase 2</h1>
               <p className='text-md font-extralight lg:mb-1'>- $APE airdrop</p>
               <p className='text-md lg:mb-1 font-extralight'>- Start marketing phase</p>
               <div className='hidden lg:h-40 xl:h-60 lg:flex lg:justify-center lg:items-center'>
@@ -63,7 +63,7 @@ export default function Home() {
 
             </div>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-2/5 xl:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
-              <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 3</h1>
+              <h1 className='text-lg font-semibold lg:text-2xl mb-2 lg:mb-5 py-1 border-b'>Phase 3</h1>
               <p className='text-md  font-extralight lg:mb-1'>- MAYC giveaway</p>
               <p className='text-md lg:mb-1 font-extralight'>- Tax used to purchase $APE</p>
               <div className='hidden lg:h-40 xl:h-60 lg:flex lg:justify-center lg:items-center'>
@@ -71,7 +71,7 @@ export default function Home() {
               </div>
             </div>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-2/5 xl:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
-              <h1 className='text-lg font-semibold lg:text-3xl mb-2 lg:mb-5 py-1 border-b'>Phase 4</h1>
+              <h1 className='text-lg font-semibold lg:text-2xl mb-2 lg:mb-5 py-1 border-b'>Phase 4</h1>
               <p className='text-md  font-extralight lg:mb-1'>- Platform for ownership of all bored dao staking assets</p>
               <div className='hidden lg:h-40 xl:h-60 lg:flex lg:justify-center lg:items-center'>
                 <img src="/fire.gif" className='w-9/12 rounded-full hidden lg:block mx-auto' alt="apecoin" />
@@ -140,7 +140,7 @@ active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'
               />
             </Link>
 
-            <Link href="https://t.me/+b06oKVlSdCozMTU0" target="_blank" rel="noopener noreferrer">
+            <Link href=" https://t.me/BoredEntryPortal" target="_blank" rel="noopener noreferrer">
               <img
                 id="telegram"
                 src="/telegram.png"
@@ -149,7 +149,7 @@ active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'
               />
             </Link>
 
-            <Link href="https://etherscan.io/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://etherscan.io/token/0x2047ab3072b52561596ce5e0131bdbb7c848538d" target="_blank" rel="noopener noreferrer">
               <img
                 id="etherscan"
                 src="/etherscan.png"
