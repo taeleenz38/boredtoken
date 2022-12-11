@@ -32,7 +32,7 @@ export default function Home() {
               <Link href="#" target="_blank" className='py-2 px-5 mt-6 mr-3 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 active:bg-white active:text-black active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'>
                 Dextools
               </Link>
-              <Link href="#" target="_blank" className='py-2 px-5 mt-6 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 active:bg-white active:text-black active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'>
+              <Link href="https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0x2047ab3072B52561596Ce5E0131BDbB7C848538D" target="_blank" className='py-2 px-5 mt-6 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 active:bg-white active:text-black active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'>
                 Uniswap
               </Link>
             </div>
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
             <div className='mt-4 lg:mt-0 lg:mb-16'>
               <img className="w-28 lg:block mx-auto mb-4 lg:mb-8 xl:w-44" src="/logo.png" alt="logo" />
-              <div className='w-full text-center text-xs sm:text-sm font-medium' value="0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da">0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</div>
+              <div className='w-full text-center text-xs sm:text-sm font-medium' value="0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da">0x2047ab3072B52561596Ce5E0131BDbB7C848538D</div>
               <div className='w-full flex justify-center items-center mt-2 lg:mt-4'>
                 <button className='border-white border-2 py-2 px-5 rounded-lg font-medium text-center shadow-lg shadow-primary transition-all duration-300 active:bg-white
 active:text-black
