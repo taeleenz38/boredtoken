@@ -53,7 +53,7 @@ export default function Home() {
             </div>
             <div className='w-11/12 h-1/5 mx-auto bg-black border-2 my-5 rounded-lg p-2 lg:p-4 font-extralight shadow-md shadow-primary lg:w-1/5 lg:h-2/5 xl:h-3/6 lg:my-0 lg:mb-8 lg:shadow-xl lg:shadow-primary transition-all duration-200 lg:hover:-translate-y-2 overflow-y-hidden'>
               <h1 className='text-lg font-semibold lg:text-2xl mb-2 lg:mb-5 py-1 border-b'>Phase 2</h1>
-              <p className='text-md font-extralight lg:mb-1'>- $APE airdrop</p>
+              <p className='text-md font-extralight lg:mb-1'>- $APE staking rewards</p>
               <p className='text-md lg:mb-1 font-extralight'>- Start marketing phase</p>
               <div className='hidden lg:h-40 xl:h-60 2xl:flex lg:justify-center lg:items-center'>
                 <video preload='auto' loop autoPlay muted className='w-11/12' >
