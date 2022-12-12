@@ -26,3 +26,23 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.scrollbar::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #2F5567;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #e0cbcb;
+  border-radius: 100vh;
+  border: 3px solid #2F5567;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
