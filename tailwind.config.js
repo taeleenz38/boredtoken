@@ -9,6 +9,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        width: {
+          38: "9.8rem",
+        },
         montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {

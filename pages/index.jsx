@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="$BORED of making money... Time for something new"
+          content="$BORED of printing money... Time for something new"
         />
       </Head>
 
@@ -28,7 +28,7 @@ export default function Home() {
               <source src="/boredbig.mp4" type='video/mp4' />
             </video>
 
-            <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl'>$BORED of making money... Time for something new</h1>
+            <h1 className='font-semibold w-10/12 sm:w-fit mx-auto text-2xl'>$BORED of printing money... Time for something new</h1>
             <div className="flex mx-auto justify-around">
               <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0xd7c8b4709b386493665a8f463f6477d17a0d851d" target="_blank" className='py-2 px-5 mt-6 mr-7 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 active:bg-white active:text-black active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'>
                 DEXTOOLS
@@ -170,9 +170,8 @@ active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'
         <footer className="w-11/12 pt-2 bg-black bottom-0 font-medium border-t-2 border-t-white fixed flex justify-between">
           <p className='mb-3'>Bored Token</p>
           <div>
-            <Link href="#home" className='mb-3 mr-4 transition-all duration-200 hover:text-primary'>Home</Link>
-            <Link href="#socials" className='mb-3 mr-4 transition-all duration-200 hover:text-primary'>Socials</Link>
-            {/* <Link href="/staking" className='mb-3 transition-all duration-200 hover:text-primary'>Stake</Link> */}
+            <Link href="/" className='mb-3 mr-4 transition-all duration-200 hover:text-primary'>Home</Link>
+            <Link href="#socials" className='mb-3 transition-all duration-200 hover:text-primary'>Socials</Link>
           </div>
         </footer>
       </footer>
