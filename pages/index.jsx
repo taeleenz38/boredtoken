@@ -119,11 +119,13 @@ active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'
             <img className='w-11/12 mx-auto my-2 rounded-2xl' src="BAYC1.jpg" alt="bayc1" />
             <img className='w-11/12 mx-auto my-2 rounded-2xl' src="mutant 1.jpg" alt="mutant1" />
             <img className='w-11/12 mx-auto my-2 rounded-2xl' src="bakc1.png" alt="bakc1" />
+            <img className='w-11/12 mx-auto my-2 rounded-2xl' src="bakc 6791.jpg" alt="bakc2" />
           </div>
           <div className='items hidden w-full sm:flex overflow-x-auto cursor-grab py-2 scrollbar'>
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="BAYC1.jpg" alt="bayc1" />
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="mutant 1.jpg" alt="mutant1" />
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="bakc1.png" alt="bakc1" />
+            <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="bakc 6791.jpg" alt="bakc2" />
           </div>
         </div>
 
