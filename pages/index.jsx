@@ -34,7 +34,7 @@ export default function Home() {
                 DEXTOOLS
               </Link>
               {/* <Link href="/staking" className='hidden md:inline-block py-2 px-5 mt-6 mr-7 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 active:bg-white active:text-black active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'>STAKE $BORED</Link> */}
-              <Link href="https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0x2047ab3072B52561596Ce5E0131BDbB7C848538D" target="_blank" className='py-2 px-5 mt-6 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 active:bg-white active:text-black active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'>
+              <Link href="https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0x2047ab3072B52561596Ce5E0131BDbB7C848538D" target="_blank" className='py-2 px-5 mt-6 mr-7 rounded-full border-white border-2 shadow-lg shadow-primary transition-all duration-300 active:bg-white active:text-black active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'>
                 UNISWAP
               </Link>
             </div>
@@ -160,7 +160,16 @@ active:border-black lg:hover:bg-white lg:hover:text-black lg:hover:border-black'
                 id="etherscan"
                 src="/etherscan.png"
                 alt="etherscan icon"
-                className='w-8 lg:w-10'
+                className='w-8 lg:w-10 mr-6'
+              />
+            </Link>
+
+            <Link href="https://coinmarketcap.com/currencies/bored-token/" target="_blank" rel="noopener noreferrer">
+              <img
+                id="cmc"
+                src="/cmc.svg"
+                alt="cmc icon"
+                className='w-8 lg:w-10 '
               />
             </Link>
           </div>

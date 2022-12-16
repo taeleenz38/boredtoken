@@ -47,3 +47,7 @@ body {
 .scrollbar::-webkit-scrollbar-thumb:hover {
   background: white;
 }
+
+#cmc {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(132deg) brightness(109%) contrast(101%);
+}
