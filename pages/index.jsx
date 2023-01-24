@@ -6,8 +6,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
-
-
   return (
     <div className="font-['Montserrat'] hide-scrollbar text-white bg-black h-screen  w-screen">
 
@@ -89,8 +87,6 @@ export default function Home() {
             <img className='w-11/12 mx-auto my-2 rounded-2xl' src="BAYC1.jpg" alt="bayc1" />
             <img className='w-11/12 mx-auto my-2 rounded-2xl' src="mutant 1.jpg" alt="mutant1" />
             <img className='w-11/12 mx-auto my-2 rounded-2xl' src="MAYC1007.jpg" alt="mutant2" />
-            <img className='w-11/12 mx-auto my-2 rounded-2xl' src="mayc 28882.jpg" alt="mutant3" />
-
             <img className='w-11/12 mx-auto my-2 rounded-2xl' src="bakc 1281.jpg" alt="bakc4" />
             <img className='w-11/12 mx-auto my-2 rounded-2xl' src="bakc1.png" alt="bakc1" />
             <img className='w-11/12 mx-auto my-2 rounded-2xl' src="bakc 6791.jpg" alt="bakc2" />
@@ -99,9 +95,7 @@ export default function Home() {
           <div className='items hidden w-full sm:flex overflow-x-auto cursor-grab py-2 scrollbar'>
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="BAYC1.jpg" alt="bayc1" />
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="mutant 1.jpg" alt="mutant1" />
-            <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="MAYC1007.jpg" alt="mutant2" />
-            <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="mayc 28882.jpg" alt="mutant3" />
-            <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="bakc 1281.jpg" alt="bakc4" />
+            <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="MAYC1007.jpg" alt="mutant2" />            <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="bakc 1281.jpg" alt="bakc4" />
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="bakc1.png" alt="bakc1" />
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="bakc 6791.jpg" alt="bakc2" />
             <img className='sm:w-5/12 mr-3 rounded-2xl inline-block' src="BAKC638.jpg" alt="bakc3" />
